@@ -1,0 +1,12 @@
+<div ng-controller="SearchFormControllerCustom as searchFormCtrlCustom">
+    <form ng-if="searchFormCtrlCustom.show" ng-submit="searchFormCtrlCustom.onSubmit()" role="form">
+        <div class="input-group">
+            <input class="form-control" type="text" ng-model="searchFormCtrlCustom.query" placeholder="{{searchFormCtrlCustom.placeholder}}"/>
+                            <span class="input-group-btn"><button class="btn btn-default" type="submit">
+                                <span class="glyphicon glyphicon-search"></span></button></span>
+            <input class="form-control" type="text" ng-model="searchFormCtrlCustom.query2" placeholder="{{searchFormCtrlCustom.placeholder}}"/>
+                            <span class="input-group-btn"><button class="btn btn-default" type="submit">
+                                <span class="glyphicon glyphicon-search"></span></button></span>
+        </div>
+    </form>
+</div>

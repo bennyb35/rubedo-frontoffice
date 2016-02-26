@@ -87,6 +87,10 @@
             "template": "/templates/blocks/searchResults.html",
             "internalDependencies":["/src/modules/rubedoBlocks/controllers/SearchResultsController.js","/src/modules/rubedoBlocks/directives/PaginatorDirective.js"]
         },
+        "searchResultsCustom": {
+            "template": "/templates/blocks/searchResultsCustom.html",
+            "internalDependencies":["/src/modules/rubedoBlocks/controllers/SearchResultsControllerCustom.js","/src/modules/rubedoBlocks/directives/PaginatorDirective.js"]
+        },
         "userProfile": {
             "template": "/templates/blocks/userProfile.html",
             "internalDependencies":["/src/modules/rubedoBlocks/controllers/UserProfileController.js"]
@@ -98,6 +102,10 @@
         "searchForm": {
             "template": "/templates/blocks/searchForm.html",
             "internalDependencies":["/src/modules/rubedoBlocks/controllers/SearchFormController.js"]
+        },
+        "searchFormCustom": {
+            "template": "/templates/blocks/searchFormCustom.html",
+            "internalDependencies":["/src/modules/rubedoBlocks/controllers/SearchFormControllerCustom.js"]
         },
         "breadcrumb": {
             "template": "/templates/blocks/breadcrumb.html",
